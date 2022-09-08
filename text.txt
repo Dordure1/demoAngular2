@@ -1,3 +1,4 @@
 pour créer un noluveau composqant : 
 ng generate components + name ou ng g c + name
 
+prime ng --> mieux que bootstrap

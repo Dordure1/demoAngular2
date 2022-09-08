@@ -8,6 +8,7 @@ import { NavbarComponent } from './Shared/navbar/navbar.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { BindingComponent } from './Demo/binding/binding.component';
 import { TwoWayBindingComponent } from './Demo/two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { TwoWayBindingComponent } from './Demo/two-way-binding/two-way-binding.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./binding.component.css']
 })
 export class BindingComponent implements OnInit {
-
+  
+  monMessage:string="" 
   constructor() { }
 
   ngOnInit(): void {
+    this.monMessage = "hello"
   }
-
+  
+  
 }
