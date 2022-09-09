@@ -48,6 +48,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/luna-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
               "src/styles.css"
             ],
             "scripts": []

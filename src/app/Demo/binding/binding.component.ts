@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-binding',
-  templateUrl: './binding.component.html',
-  styleUrls: ['./binding.component.css']
+  templateUrl: './binding.component.html'
 })
 export class BindingComponent implements OnInit {
   
